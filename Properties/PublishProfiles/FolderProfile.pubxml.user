@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\BookStore-Release</_PublishTargetUrl>
+    <History>True|2022-04-05T02:35:45.5337824Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="BookStore.Models.BookStoreDbContext">
+      <Value>Server=localhost %3b Database=BookStore%3b User=sa%3b Password=Admin_7410%3b Trusted_Connection=false%3b MultipleActiveResultSets=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
